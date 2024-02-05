@@ -11,7 +11,7 @@ def enter_night_club(individual):
     if individual.age >= LEGAL_DRINKING_AGE:
         print("Allowed to enter.")
     else:
-        print("Enterance of minors is denited.")
+        print("Entrance of minors is denied.")
     
 person = Person(17.9)
 enter_night_club(person)
